@@ -9,7 +9,8 @@ class Anagram
 
   def match(word_array)
     word_array.select do |vocab|
-      vocab.split.sort == self.split.sort
+      binding.pry
+      vocab.split.sort == word.split.sort
     end
   end
 
