@@ -9,4 +9,8 @@ class Anagram
     #@word.split("") 
   end
 
+  def match(array)
+    
+  end
+
 end
