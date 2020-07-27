@@ -15,3 +15,6 @@ class Anagram
   end
 
 end
+
+word_array.select do |vocab|
+  vocab.split.sort == 
